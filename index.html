@@ -5,31 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-witdh, initial-scale=1.0">
     <meta name="description" content="Gostariamos de convida-los para o nosso grande dia!">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Casamento de Vinícius & Mayumi</title>
 </head>
     
 <body>
     <header class="cabeçalho">
         <nav class="cabeçalho-menu">
-            <a class="cabeçalho-menu-item">Início</a>
-            <a class="cabeçalho-menu-item">Sobre nós</a>
-            <a class="cabeçalho-menu-item">Evento</a>
-            <a class="cabeçalho-menu-item">Fotos</a>
-            <a class="cabeçalho-menu-item">Confirmação</a>
-            <a class="cabeçalho-menu-item">Lista de Presentes</a>
+            <a class="cabeçalho-menu-logo">VM</a>
+            <div class="cabeçalho-menu-mobile">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="cabeçalho-menu-lista">
+                <li><a class="cabeçalho-menu-lista-item">Sobre nós</a></li>
+                <li><a class="cabeçalho-menu-lista-item">Evento</a></li>
+                <li><a class="cabeçalho-menu-lista-item">Fotos</a></li>
+                <li><a class="cabeçalho-menu-lista-item">Confirmação</a></li>
+                <li><a class="cabeçalho-menu-lista-item">Lista de Presentes</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <img src="img/img-center.png" alt="Imagem de Vinícius e Mayumi">
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <img class="conteudo-principal-imagem" src="img/img-center.png" alt="Imagem de Vinícius e Mayumi">
         </section>
-        <section>
-            <div>
-                <h1>Vinícius & Mayumi</h1>
-                <h2>27.11.2021</h2>
-                <p>
+        
+        <section class="conteudo-sobre-nos">
+            <div class="conteudo-sobre-nos-escrito">
+                <h1 class="conteudo-sobre-nos-escrito-nomes">Vinícius & Mayumi</h1>
+                <h2 class="conteudo-sobre-nos-escrito-data">27.11.2021</h2>
+                <p class="conteudo-sobre-nos-escrito-descricao">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum vitae ligula a porttitor. 
                     Maecenas at sapien et mauris viverra lacinia. Duis luctus imperdiet molestie. Cras hendrerit ante ut arcu semper rutrum. 
                     Praesent viverra non urna id suscipit. Suspendisse mollis ipsum sit amet erat dapibus tristique. 
@@ -60,6 +68,8 @@
     <footer>
         
     </footer>
+
+    <script src="navbar-mobile.js"></script>
 </body>
 
 
