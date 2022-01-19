@@ -1,0 +1,17 @@
+header{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.css-navbar {
+    height: 47px;
+    width: 725px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.css-navbar-item{
+    justify-content: center;
+    align-items: center;
+}
