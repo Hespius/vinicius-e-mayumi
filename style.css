@@ -4,6 +4,14 @@ header{
     justify-content: center;
 }
 
+.css-bg-01 {
+    position: absolute;
+    width: 1232px;
+    height: 948px;
+    left: -181px;
+    top: -233px;
+}
+
 .css-navbar {
     height: 47px;
     width: 725px;
@@ -14,4 +22,15 @@ header{
 .css-navbar-item{
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 991.98px){
+    header{
+        padding: 0px;
+    }
+
+    .css-navbar{
+        border-radius: 0px;
+        height: auto;
+    }
 }
