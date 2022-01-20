@@ -30,8 +30,25 @@ header{
     max-width: 70%;
 }
 
-.css-fonte-titulo {
+.css-fonte-titulo-principal {
     font-family: 'Pacifico', cursive;
+}
+
+.css-fonte-titulo {
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #12363A;
+}
+
+.css-fonte-texto- {
+    font-family: Work Sans;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #12363A;
 }
 
 
@@ -44,6 +61,11 @@ header{
     .css-navbar {
         border-radius: 0px;
         height: auto;
+        width: auto;
+    }
+
+    .css-texto-tamanho-limite{
+        max-width: 100%;
     }
 
     .css-bg-01 {
