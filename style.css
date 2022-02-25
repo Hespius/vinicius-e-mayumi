@@ -22,6 +22,15 @@ header{
     z-index: -1;
 }
 
+.css-bg-03{
+    position: absolute;
+    width: 1049,5px;
+    height: 1000px;
+    left: -495px;
+    top: 2204px;
+    z-index: -1;
+}
+
 #id-fotos .item{
     padding: 0px;
     margin-bottom: 20px;
@@ -112,6 +121,15 @@ header{
         height: 857px;
         left: 200px;
         top: 2150px;
+        z-index: -1;
+    }
+
+    .css-bg-03{
+        position: absolute;
+        width: 1049,5px;
+        height: 800px;
+        left: -595px;
+        top: 3250px;
         z-index: -1;
     }
 
