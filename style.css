@@ -4,6 +4,10 @@ header{
     justify-content: center;
 }
 
+body{
+    overflow-x: hidden; 
+}
+
 .form{
     width: 360px;
     padding: 4rem 2rem;
@@ -176,14 +180,6 @@ header{
     color: #12363A;
 }
 
-/* .css-fonte-texto- {
-    font-family: Work Sans;
-    font-size: 13px;
-    line-height: 15px;
-    letter-spacing: -0.02em;
-    color: #12363A;
-} */
-
 .css-fonte-h2 {
     font-family: Work Sans;
     font-weight: bold;
@@ -206,17 +202,18 @@ header{
     }
 
     .css-texto-tamanho-limite{
-        max-width: 100%;
+        max-width: 60%;
     }
 
     .css-bg-01 {
         position: absolute;
-        width: 1232px;
+        max-width: 750x;
         height: 948px;
-        left: -181px;
+        left: -520px;
         top: -233px;
         z-index: -1;
     }
+
 
     .css-bg-02 {
         position: absolute;
