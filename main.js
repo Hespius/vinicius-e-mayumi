@@ -24,19 +24,32 @@ jQuery(document).ready(function($) {
     });
 });
 
-// $('.owl-carousel').owlCarousel({
-//     loop:true,
-//     margin:10,
-//     nav:true,
-//     responsive:{
-//         0:{
-//             items:1
-//         },
-//         600:{
-//             items:3
-//         },
-//         1000:{
-//             items:5
-//         }
-//     }
-// })
+function confirmarPresenca(){
+    event.preventDefault()
+    let url = "https://sheetdb.io/api/v1/5r6mjxdz0jcmf"
+    
+    let nome = document.getElementById("nome").value
+    let quantidade = document.getElementById("quantidade").value
+    let presenca = document.getElementById("presenca").value
+
+    body = {
+        "Nome": nome,
+        "Quantidade": quantidade,
+        "Presença": presenca
+    }
+
+    enviarPresenca(url, body)
+}
+
+function enviarPresenca(url, body){
+    let request = new XMLHttpRequest()
+    request.open("POST", url, true)
+    request.setRequestHeader("Content-type", "application/json")
+    request.send(JSON.stringify(body))
+
+    request.onload = function(){
+        console.log(this.responseText)
+    }
+
+    return request.responseText
+}

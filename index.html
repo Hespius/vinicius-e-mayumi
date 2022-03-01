@@ -137,17 +137,17 @@
             <div class="row m-5 justify-content-center">
                 <div class="d-flex flex-column justify-content-center p-5 col-12 col-xxl-6">
                     <h2 class="css-fonte-h2 m-4">Confirmação de Presença</h2>
-                    <form action="">
+                    <form onsubmit="confirmarPresenca()">
                         <div class="form_div">
-                            <input type="text" class="form_input" placeholder=" ">
+                            <input name="nome" id="nome" type="text" class="form_input" placeholder=" ">
                             <label for="" class="form_label">Nome</label>
                         </div>
                         <div class="form_div">
-                            <input type="number" class="form_input" placeholder=" ">
+                            <input name="quantidade" id="quantidade" type="number" class="form_input" placeholder=" ">
                             <label for="" class="form_label">Quantidade</label>
                         </div>
                         <div class="form_div">
-                            <select class="form_input" placeholder="">
+                            <select class="form_input" id="presenca" placeholder="">
                                 <option value="Sim">Sim</option>
                                 <option value="Não">Não</option>
                             </select>
