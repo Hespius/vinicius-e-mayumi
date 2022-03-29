@@ -194,6 +194,10 @@ body{
     text-align: center;
 }
 
+.css-footer-texto a{
+    color: #ffffff;
+}
+
 /* Rodapé */
 
 footer{
